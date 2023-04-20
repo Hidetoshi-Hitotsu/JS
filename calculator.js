@@ -45,4 +45,8 @@ $(document).ready(function(){
   $("#equalbutton").click(function(){
     $("#dotbutton").prop('disabled',false);
   });
+  $(".cbutton").click(function(){
+    $("#dotbutton").prop('disabled',false);
+  });
+  
 });
